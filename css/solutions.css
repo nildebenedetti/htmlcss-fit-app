@@ -24,9 +24,10 @@ div.stats-grid:nth-child(3) > * {
 }
 
 /* #3 Vado a impostare un border right e bottom per castare ombra
-    Sollevo la posizione con position absolute + translate */
+    Sollevo la posizione con position relative e spostamento da bottom */
 
 div.stats-grid:hover {
    box-shadow: 0 2px 3px 0 rgb(94, 92, 92);
-
+    position:relative;
+    bottom: 5px;
 }
