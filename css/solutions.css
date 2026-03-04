@@ -31,3 +31,12 @@ div.stats-grid:hover {
     position:relative;
     bottom: 5px;
 }
+
+/* #4 seleziono il piano di allenamento notando che va contato
+ anche il primo figlio (h2) del padre
+*/
+
+section.workout-section :nth-child(3).workout-plan {
+    background-color: rgb(250, 246, 168);
+
+}
