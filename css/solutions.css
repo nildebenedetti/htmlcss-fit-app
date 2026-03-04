@@ -38,5 +38,6 @@ div.stats-grid:hover {
 
 section.workout-section :nth-child(3).workout-plan {
     background-color: rgb(250, 246, 168);
-
+    border-left: 5px solid orange;
 }
+
