@@ -1,0 +1,13 @@
+/* Le mie magiche soluzioni, divise per numero.
+   Perchè nulla va lasciato al caso, nella vita.*/
+
+
+/* #1 
+   Combino before con first-child, di modo da selezionare
+solo il primo span con classe stat-number */
+
+ section.stats-container :first-child span.stat-number::before {
+    content:'\1F525';
+    display: block;
+    font-size: 0.8 em;
+}
