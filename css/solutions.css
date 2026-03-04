@@ -91,3 +91,11 @@ div.progress-fill::after {
     right:0;
     translate: -60%;
 }
+
+/* 11-12*/
+
+nav a:hover {
+    color: #667EEA;
+    background-color: #1b2732;
+}
+
