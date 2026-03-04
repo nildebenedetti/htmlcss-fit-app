@@ -11,3 +11,10 @@ solo il primo span con classe stat-number */
     display: block;
     font-size: 0.8 em;
 }
+
+/* #2 Seleziono la card, cambio il background, poi fixo il txt-color
+*/
+
+section.stats-container div.stats-grid:nth-child(3) {
+    background: linear-gradient(to right, #677AE5, #754EA6)
+}
