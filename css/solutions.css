@@ -52,12 +52,17 @@ div:nth-child(5) > :first-child , div:nth-child(5) > :last-child {
 /* #6 yeee :) vado a cercarmi l'hex code del fulmine 
     e preparo il mio css, poi lo assegno ai tag interessati */
 
-.exercise-item:nth-child(even) .exercise-item::before {
-   content:ciao;
+.exercise-item:nth-child(even)::before {
+    content:'\26A1';
+    display: block;
+    font-size: 0.8 em;
 }
 
-/* #7-8
+/* #7-8 aggiungo il border e shadow agli elementi */
 
-input ty
+ .goals-container div.goal-input-group input:focus, .goals-container div.goal-input-group select:focus {
+   border: 5px solid #667EEA;
+   box-shadow: 3px #667EEA;
+}
 
 
