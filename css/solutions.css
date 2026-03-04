@@ -79,3 +79,15 @@ div:nth-child(5) > :first-child , div:nth-child(5) > :last-child {
     position:relative;
     bottom: 2px;
 }
+
+/*10*/
+
+div.progress-fill::after {
+    content: "65%";
+    font-size:8px;
+    display: block;
+    color: white;
+    position: absolute;
+    right:0;
+    translate: -60%;
+}
