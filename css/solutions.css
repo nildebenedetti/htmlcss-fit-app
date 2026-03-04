@@ -48,3 +48,10 @@ div:nth-child(5) > :first-child , div:nth-child(5) > :last-child {
     background-color: #F0FFF4;
     border-left: 5px solid rgb(7, 202, 75);
 }}
+
+/* #6 yeee :) vado a cercarmi l'hex code del fulmine 
+    e preparo il mio css, poi lo assegno ai tag interessati */
+
+/*   content:''\26A1';
+    display: block;
+    font-size: 0.8 em; */
