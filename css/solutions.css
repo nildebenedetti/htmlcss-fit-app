@@ -41,3 +41,10 @@ section.workout-section :nth-child(3).workout-plan {
     border-left: 5px solid orange;
 }
 
+/* #5 seleziono con 1st e last child le sezioni interessate
+    e imposto lo stile richiesto*/
+
+div:nth-child(5) > :first-child , div:nth-child(5) > :last-child {
+    background-color: #F0FFF4;
+    border-left: 5px solid rgb(7, 202, 75);
+}}
