@@ -94,8 +94,10 @@ div.progress-fill::after {
 
 /* 11-12*/
 
-nav a:hover {
+nav a:hover, nav a[href="#home"] {
     color: #667EEA;
     background-color: #1b2732;
 }
+
+
 
