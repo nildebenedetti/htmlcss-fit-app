@@ -33,7 +33,7 @@ div.stats-grid:hover {
 }
 
 /* #4 seleziono il piano di allenamento notando che va contato
- anche il primo figlio (h2) del padre
+ anche il primo figlio (h2) del padre; add bg color e border
 */
 
 section.workout-section :nth-child(3).workout-plan {
