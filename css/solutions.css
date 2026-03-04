@@ -92,12 +92,38 @@ div.progress-fill::after {
     translate: -60%;
 }
 
-/* 11-12*/
+/* 11-12 */
 
 nav a:hover, nav a[href="#home"] {
     color: #667EEA;
     background-color: #1b2732;
 }
 
+/* 13 */
 
+div.quote-box {
+    position:relative;
+}
+
+div.quote-box p::before {
+    content:"“";
+    display: block;
+    position: absolute;
+    font-size:4em;
+    top:-10%;
+    left: 0;
+    translate: 10%;
+    opacity: 40%;
+}
+
+div.quote-box p::after {
+    content:"”";
+    display: block;
+    position: absolute;
+    font-size:4em;
+    bottom: -20%;
+    right: 0;
+    translate: -80%;
+    opacity: 40%;
+}
 
