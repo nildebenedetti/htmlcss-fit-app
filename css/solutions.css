@@ -16,5 +16,9 @@ solo il primo span con classe stat-number */
 */
 
 section.stats-container div.stats-grid:nth-child(3) {
-    background: linear-gradient(to right, #677AE5, #754EA6)
+    background: linear-gradient(to right, #677AE5, #754EA6);
+}
+
+div.stats-grid:nth-child(3) > * {
+    color:white;
 }
